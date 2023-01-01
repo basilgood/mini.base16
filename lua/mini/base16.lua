@@ -458,6 +458,7 @@ H.apply_palette = function(palette, use_cterm)
   hi('CursorIM',     {fg=p.base00, bg=p.base05, attr=nil,         sp=nil})
   hi('CursorLine',   {fg=nil,      bg=p.base01, attr=nil,         sp=nil})
   hi('CursorLineNr', {fg=p.base04, bg=p.base01, attr=nil,         sp=nil})
+  hi('CurSearch',    {fg=p.base01, bg=p.base09, attr=nil,         sp=nil})
   hi('DiffAdd',      {fg=p.base0B, bg=p.base00, attr=nil,         sp=nil})
   -- Differs from base16-vim, but according to general style guide
   hi('DiffChange',   {fg=p.base0E, bg=p.base00, attr=nil,         sp=nil})
