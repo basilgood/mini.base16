@@ -878,6 +878,7 @@ H.apply_palette = function(palette, use_cterm)
     hi('CocHintFloat',    {link='DiagnosticFloatingHint'})
     hi('CocInfoFloat',    {link='DiagnosticFloatingInfo'})
     hi('CocWarningFloat', {link='DiagnosticFloatingWarn'})
+    hi('CocSuggestFloating', {fg=p.base07, bg=p.base01, attr=nil, sp=nil})
 
     hi('CocErrorSign',   {link='DiagnosticSignError'})
     hi('CocHintSign',    {link='DiagnosticSignHint'})
