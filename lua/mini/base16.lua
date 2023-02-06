@@ -893,6 +893,7 @@ H.apply_palette = function(palette, use_cterm)
     hi('CocPumVirtualText',       {link='CocMarkdownLink'})
     hi('CocSearch',               {fg=p.base0A, bg=nil,      attr=nil, sp=nil})
     hi('CocSelectedText',         {fg=p.base08, bg=nil,      attr=nil, sp=nil})
+    hi('CocInlayHint',            {link='Comment'})
   end
 
   -- nvim-lualine/lualine.nvim
